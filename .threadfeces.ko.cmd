@@ -1,1 +1,0 @@
-savedcmd_threadfeces.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/6.14.5-arch1-1/build/scripts/module.lds -o threadfeces.ko threadfeces.o threadfeces.mod.o .module-common.o
